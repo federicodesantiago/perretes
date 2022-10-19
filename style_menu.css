@@ -1,0 +1,77 @@
+/* menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* items del menu */
+
+/* enlaces del menu */
+
+nav ul a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+/* items del menu */
+
+nav ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+.nav_li_selectable:hover {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+/* menu desplegable */
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+}
+
+/* items del nav desplegable */
+
+nav ul ul li {
+    float: none;
+    width: 300px;
+}
+
+/* enlaces de los items del nav desplegable */
+
+nav ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+/* items del nav desplegable al pasar el ratón */
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+.buy_button {
+    border: 3px solid red;
+    border-radius: 0px 30px 30px 30px;
+}
+
+.buy_button:hover {
+    background-color: red;
+    color: white;
+}
